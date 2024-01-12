@@ -31,4 +31,4 @@ CREATE TABLE `fiction` (
   FULLTEXT KEY `Series` (`Series`),
   FULLTEXT KEY `TITLE` (`Title`),
   FULLTEXT KEY `Title+Authors+Series` (`Title`,`Author`,`Series`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
